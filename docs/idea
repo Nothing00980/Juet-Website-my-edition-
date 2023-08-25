@@ -1,0 +1,55 @@
+   <!-- <section class="event">
+        <h1>Announcements & Academic News</h1>
+        <p>Welcome to the Academic News section of Jaypee University of Engineering and Technology. Here, we bring you the latest updates, achievements, and breakthroughs from our vibrant academic community. Stay connected to the pulse of innovation, research, and educational advancements through our regular updates:</p>
+        <div class="row">
+            <div class="event-col">
+                <img src="images/eduford_img/user1.jpg" >
+                <div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique doloremque labore numquam quibusdam, qu</p> 
+            <h3>Rayana Helmond</h3>
+            <span class="material-symbols-outlined">
+                star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                    </span>
+                <span class="material-symbols-outlined">
+                    star
+                    </span><span class="material-symbols-outlined">
+                        star
+                        </span>
+                        <span class="material-symbols-outlined">
+                            grade
+                            </span>
+                </div>
+
+            </div>
+            <div class="event-col">
+                <img src="images/eduford_img/user2.jpg" >
+                <div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique doloremque labore numquam quibusdam, qu</p> 
+            <h3> Mark Ryzenberg</h3>
+            
+                <span class="material-symbols-outlined">
+                    star
+                    </span><span class="material-symbols-outlined">
+                        star
+                        </span>
+                        <span class="material-symbols-outlined">
+                            star
+                            </span>
+                            <span class="material-symbols-outlined">
+                                star
+                                </span><span class="material-symbols-outlined">
+                                    star_half
+                                    </span>
+
+          
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section> -->

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome 4 cdn link for menu box to close in phone resolution -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <title>University webite design</title>
+    <!-- link of the css file -->
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- from google fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/eduford_img/juet.png" alt="clg logo"></a>
+            <div class="nav-links" id="nav-links">
+            <!-- these are old version not showing -->
+            <span class="material-symbols-outlined" onclick="hidemenu()">
+                close
+                </span>
+                <!-- not working thats why took icons form google -->
+                <!-- <i class="fa fa-times" onclick="hidemenu()"></i> -->
+                <!-- <i class="fa-solid fa-xmark"></i> -->
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <span class="material-symbols-outlined" onclick="showmenu()">
+                menu
+                </span>
+            <!-- <i class="fa-solid fa-bars"></i> -->
+            <!-- these are old version not showing -->
+            <!-- <i class="fa fa-bars" onclick="showmenu()"></i> -->
+        </nav>
+       <h1>Contact Us</h1>
+
+    </section>
+    <!-- --------------contact us----- -->
+    <section class="location">
+        
+        <iframe src="https://www.google.com/maps/place/Jaypee+University+Of+Engineering+And+Technology,+Guna/@24.4375546,77.1600196,15z/data=!4m9!1m2!2m1!1sjaypee+university+of+engineering+and+technology+map!3m5!1s0x397aff3abbbad69f:0x9af2aa865b395399!8m2!3d24.4348427!4d77.1608877!16s%2Fm%2F026lfnm?entry=ttu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></frame>
+
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <span class="material-symbols-outlined">
+                        home
+                        </span>
+                        <span>
+                            <h5>A-B Road, Raghogarh</h5><p> Guna (M.P.) - 473226, INDIA</p>
+                        </span>
+                </div>
+
+                <div>
+                    <span class="material-symbols-outlined">
+                        call
+                        </span>
+                        <span>
+                            <h5>+91-7544-267051</h5><p> Monday to Saturday,10AM to 6PM</p>
+                        </span>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        mail
+                        </span>
+                        <span>
+                            <h5>ontact@juet.ac.in</h5><p> Email Us Your Query</p>
+                        </span>
+
+            </div>
+            </div>
+            <div class="contact-col">
+                <!-- we made i easy with the php file to handle the  response -->
+                <Form action="formhandler.php" method="post">
+                    <input type="text" name="name"  placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea  rows="8" name="message" placeholder="Message"></textarea>
+                    <button type="submit" class="hero-btn red-btn"> Send Message</button>
+
+
+                </Form>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- footer-------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Jaypee University of Engineering and Technology, we take pride in our rich academic heritage and dedication to nurturing bright minds.<br> Our range of B.Tech courses caters to a wide array of engineering disciplines, providing students with a comprehensive and <br> education that equips them with the skills necessary to excel in the ever-evolving technological landscape.</p>
+        <p>Jaypee University of Engineering and Technology, A-B Road, Raghogarh, Distt. - Guna (M.P.), PIN - 473226, INDIA<br>
+ 
+ 	
+Ph: +91-7544-267051, 267310, 267311, 267312, Email : contact@juet.ac.in<br>
+
+Toll Free Helpline for Admission : 1800 121 884444</p>
+        <div class="icons">
+           <a href=""> <img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"> </a>
+          <a href="https://www.instagram.com/jaypee_university_guna/">  <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"></a>
+          <a href="https://twitter.com/juet_official?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" > <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"> </a>
+          <a href="https://www.linkedin.com/school/jaypee-university-of-engineering-and-technology/?originalSubdomain=in">  <img src="https://img.icons8.com/color/48/000000/linkedin-circled--v4.png" ></a>
+
+        </div>
+    
+        <div id="copyright">
+
+            © CopyRight Claim  Yuvraj Bhati - yuvrajbhati00980@gmail.com -- Nothing000980
+        </div>
+
+
+    </section>
+   
+   
+   
+   
+    <!-- ---------- javascript for toogle menu -->
+<script>
+    var navLinks = document.getElementById("nav-links")
+    function showmenu(){
+        navLinks.style.right = "0";
+
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+
+    }
+</script>
+
+</body>
+</html>
