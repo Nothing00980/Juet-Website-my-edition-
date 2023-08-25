@@ -33,4 +33,4 @@ This website is licensed under the [MIT License](LICENSE). You are free to use, 
 ## Acknowledgments
 We would like to express our gratitude to all the individuals who have contributed to the development of this website.
 
-For more information and to explore our website, visit [jaypeeuniversity.com](https://www.juet.ac.in/).
+For more information and to explore our website, visit [jaypeeuniversity.com](https://nothing00980.github.io/Juet-Website-my-edition-/).
