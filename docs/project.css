@@ -354,9 +354,9 @@ h3{
     margin: 100px auto;
     width: 80%;
     background-image: linear-gradient(
-        rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/eduford_img/banner2.jpg);
+        rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://media.istockphoto.com/id/1334591613/photo/businessman-hold-circle-of-network-structure-hr-human-resources-business-leadership-concept.jpg?s=612x612&w=0&k=20&c=F4OFJteempRNkJl2tKsq6vWuP0DwFY3x9KpRCZ6C3Vc=);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     border-radius: 10px;
     text-align: center;
     padding: 100px 0;
@@ -402,14 +402,14 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/eduford_img/background.jpg);
+    /* background-image: linear-gradient(rgba(96, 42, 42, 0.7),rgba(38, 40, 46, 0)),url(images/back.jpg); */
     background-position: center;
     background-size: cover;
     text-align: center;
     color: #fff;
 }
 .sub-header h1{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .aboutus{
     width: 80%;
@@ -445,55 +445,55 @@ h3{
     color: #fff;
 }
     
-/* ----------- blog page */
-.blog-content{
+/* ----------- placement page */
+.placement-content{
     width: 80%;
     margin: auto;
     padding: 60px 0;
 }
-.blog-left{
+.placement-left{
     flex-basis: 55%;
 
 }
-.blog-left img{
+.placement-left img{
     width: 100%;
 
 
 }
-.blog-left h2{
+.placement-left h2{
     color: #222;
     font-weight: 600;
     margin: 30px 0;
 }
-.blog-left h3{
+.placement-left h3{
     color: #222;
     font-weight: 600;
     margin: 30px 0;
     text-align: left;
 }
 
-.blog-left ul li{
+.placement-left ul li{
     list-style:decimal ;
     padding: 2px 4px;
     color: #555;
     font-size: 16px;
 }
-.blog-left p{
+.placement-left p{
     color: #999;
     padding:0;
 }
-.blog-right{
+.placement-right{
     flex-basis: 32%;
     padding-left: 10%;
 }
-.blog-right h3{
+.placement-right h3{
     background: var(--Pimarycolor);
     color: #fff;
     padding: 7px 0;
     font-size: 16px;
     margin-bottom: 20px;
 }
-.blog-right div{
+.placement-right div{
     display: flex;
     align-items: center;
     justify-content: space-between;
